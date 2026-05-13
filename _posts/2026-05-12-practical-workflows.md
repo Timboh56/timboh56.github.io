@@ -16,4 +16,10 @@ demand specific, minute by minute changes to how they want their health plans to
 
 For our data needs, we tag data at the source. Patient data in healthcare arrives from everywhere — EHRs, claims feeds, lab systems, eligibility files — each with different lag, reliability, and quirks.
 One of the easiest ways to erode trust in a platform is to treat all of it as equivalent. We track source, timestamp, and confidence through to the insight level. 
+
+#### The part that keeps you honest
+
+The feedback loop in healthcare software is slow.
+A bug in a typical application breaks something visible — a checkout fails, a page doesn't load. In our domain, a flaw in a care gap algorithm might mean a patient doesn't get flagged for a follow-up they needed. You may not find out for months. You may not find out at all.
+That asymmetry doesn't paralyze you, but it does change how you work. You document more than feels necessary. You question your assumptions more carefully. You remember that the clinicians and care coordinators using your platform are making real decisions based on what you've built — and you try to give them something worth trusting.
 When a care gap fires, we want to know exactly what data triggered it. Clinical teams act on these signals; they need to be able to interrogate them.
